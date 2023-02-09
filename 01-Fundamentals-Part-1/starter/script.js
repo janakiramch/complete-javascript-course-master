@@ -33,3 +33,16 @@ if (higherBmi > 0) {
   higherBmi = bmiJohn;
   console.log(`John's BMI ${bmiJohn} is higher than Mark's`);
 }
+
+const scoreDolphin = (96 + 108 + 89) / 3;
+const scoreKolas = (88 + 91 + 110) / 3;
+
+console.log(`Dolphins score is ${scoreDolphin} , Kolas score is ${scoreKolas}`);
+
+if (scoreDolphin > scoreKolas) {
+  console.log("Dolphins win the trophy");
+} else if (scoreKolas > scoreDolphin) {
+  console.log("Kolas win the trophy");
+} else {
+  console.log("Match Drawn. Both win the trophy");
+}
